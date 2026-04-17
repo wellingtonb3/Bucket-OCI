@@ -5,6 +5,12 @@ This project implements an automated, end-to-end data ingestion pipeline designe
 
 The solution focus on scalability and security, utilizing professional cloud authentication methods to manage non-structured data (images) in a production-ready environment.
 
+<div align="center">
+  <img src="img/project2.png" alt="Streamlit Interface" width="800">
+  <br>
+  <em>OCI Object Storage & Archive Storage - Buckets Section/Objects</em>
+</div>
+
 ---
 
 ## 🏗 Architecture
@@ -29,6 +35,12 @@ The architecture is divided into two main layers:
 * **Tools/SDKs:** OCI Python SDK, OpenCV (for image capture).
 * **Security:** RSA Key Pair Authentication, IAM Policies.
 
+<div align="center">
+  <img src="img/project1.png" alt="Streamlit Interface" width="800">
+  <br>
+  <em>Project runnig by SSH from HTTP</em>
+</div>
+
 ---
 
 ## 🚀 Technical Workflow
@@ -43,6 +55,12 @@ The architecture is divided into two main layers:
 * Raspberry Pi 3B with Python installed.
 * An active Oracle Cloud account.
 * OCI CLI/SDK configured with a valid `config` file and Private Key (.pem).
+
+<div align="center">
+  <img src="img/Raspberry_3b.png" alt="Streamlit Interface" width="800">
+  <br>
+  <em>RASPBERRY PI 3B</em>
+</div>
 
 ---
 
